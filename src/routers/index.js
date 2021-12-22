@@ -11,6 +11,10 @@ const routes = [
         path: 'drawCircle',
         name: 'drawCircle',
         component: () => import('@/views/learn1/draw-circle.vue')
+      },{
+        path: 'sinusoid',
+        name: 'sinusoid',
+        component: () => import('@/views/learn2/sinusoid.vue')
       }
     ]
   }
